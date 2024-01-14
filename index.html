@@ -16,11 +16,19 @@
         this.bar = bar;
       }
     }
-    // Crea una instancia de la clase A
-    const objetoA = new A('ValorFoo', 'ValorBar');
+
+  class B {
+    constructor(claseB) {
+      this.claseB = claseB;
+    }
+  }
+
+  const objetoA = new A('ValorFoo', 'ValorBar');
+  const objetoB = new B('ValorClaseB');
 
     // Muestra el objeto en la consola
     console.log(objetoA);
+    console.log(objetoB);
 
   </script>
 </body>
