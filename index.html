@@ -11,9 +11,10 @@
   <h1>Clase A con atributos foo y bar en JavaScript</h1>
   <script>
     class A {
-      constructor(foo, bar) {
+      constructor(foo, bar, lorem) {
         this.foo = foo;
         this.bar = bar;
+        this.lorem = lorem;
       }
     }
 
@@ -29,7 +30,7 @@
   }
 
 
-  const objetoA = new A('ValorFoo', 'ValorBar');
+  const objetoA = new A('ValorFoo', 'ValorBar', 'ValorLorem');
   const objetoB = new B('ValorClaseB');
   const objetoC = new C('ValorClaseC');
     // Muestra el objeto en la consola
